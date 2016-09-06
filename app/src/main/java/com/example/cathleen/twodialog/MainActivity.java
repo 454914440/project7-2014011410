@@ -61,6 +61,9 @@ public class MainActivity extends AppCompatActivity {
                         if(!ps.equals("123")){
                             Toast.makeText(MainActivity.this,"密码不正确",Toast.LENGTH_SHORT).show();
                         }
+                        if(un.equals("abc")&&ps.equals("123")){
+                            Toast.makeText(MainActivity.this,"登录成功",Toast.LENGTH_SHORT).show();
+                        }
 
                     }
                 });
